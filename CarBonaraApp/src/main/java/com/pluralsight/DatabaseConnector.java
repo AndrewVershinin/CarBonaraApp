@@ -9,8 +9,8 @@ public class DatabaseConnector {
 
     static {
         dataSource.setUrl("jdbc:mysql://localhost:3306/car_dealership");
-        dataSource.setUsername("root"); // your DB username
-        dataSource.setPassword("yearup"); // your DB password
+        dataSource.setUsername("root");
+        dataSource.setPassword("yearup");
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
     }
 
